@@ -1,0 +1,10 @@
+.todo__list {
+    list-style: none;
+    & > li {
+        cursor: pointer;
+    }
+    & > li.old {
+        color: #5D1D58;
+        font-weight: bold;
+    }
+}

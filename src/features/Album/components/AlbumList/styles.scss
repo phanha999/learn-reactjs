@@ -1,0 +1,13 @@
+.album__item {
+    margin-bottom: 20px;
+    &--thumbnail {
+        & > img {
+            width: 142px;
+        }
+    }
+    &--name {
+        font-weight: 500;
+        margin: 2px 0;
+        font-size: 0.8rem;
+    }
+}
