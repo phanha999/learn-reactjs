@@ -31,22 +31,6 @@ function PasswordField({name , form , label , disabled}) {
 
     return (
         <div>
-            {/* <Controller
-            control={form.control}
-            name={name}
-            as={TextField}
-
-            variant="outlined"
-            margin="normal"
-            label={label}
-            disabled={disabled}
-
-            error={!!hasErrors}
-            
-            helperText={errors[name]?.message}
-            fullWidth
-            /> */}
-
             <FormControl error={hasErrors} fullWidth margin="normal" variant="outlined" >
                 <InputLabel htmlFor={name}>{label}</InputLabel>
                 <Controller

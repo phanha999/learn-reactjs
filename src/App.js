@@ -9,6 +9,7 @@ import NotFound from "./components/NotFound";
 import productApi from './api/productApi';
 import CounterFeatures from './features/Counter';
 import Header from './components/Header';
+import Product from 'features/Product/index';
 
 function App() {
   //Cách Gọi Api cho Product với số lượng Product la 10
@@ -44,6 +45,7 @@ function App() {
         <Route path="/" component={CounterFeatures} exact/>
         <Route path="/todo-list" component={TodoFeatures} />
         <Route path="/albums" component={Album} />
+        <Route path="/products" component={Product} />
 
         <Route component={NotFound}/>
       </Switch>
